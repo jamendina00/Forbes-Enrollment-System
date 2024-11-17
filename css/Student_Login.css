@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sedan+SC&display=swap');
+body {
+    background-image: url(/img/Rectangle\ 155.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shape {
+    background-color: #076A2890;
+    height: 104px;
+    width: 102%;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 759px;
+}
+#loginframe {
+    border-radius: 30px;
+    overflow: hidden;
+    height: min-content;
+    width: 962px;
+}
+#leftbox {
+    background-color: #ffffff;
+    height: 492px;
+    width: 481px;
+
+    h1{
+        color: #076A28;
+    }
+}
+#rightbox {
+    background-color: #EBEBEB70;
+    height: 492px;
+    width: 481px;
+    backdrop-filter: blur(4px);
+    img{
+        height: 180px;
+        margin-left: 100px;
+    }
+}
+
+#email {
+    border-radius: 30px;
+    padding: 10px;
+    height: 40px;
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-bottom: -30px;
+    font-family: 'Nunito Sans';
+}
+
+#pwd {
+    border-radius: 30px;
+    padding: 10px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: -30px;
+    font-family: 'Nunito Sans';
+}
+
+#myCheck {
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+#submitbtn {
+    margin-left: 160px;
+    margin-top: -15px;
+    height: 45px;
+}
+
+#boxshape {
+    background-color: #076A2885;
+    color: #f5f5fa;
+    border-radius: 30px 30px 0px 0px;
+    height: 66px;
+}
+#mainfooter {
+    height: 161px;
+    background-color: #f5f5fa;
+    
+}
+
+#footerdiv1 {
+    h1 {
+        font-family: 'Sedan SC';
+        margin-top: 10px;
+    }
+
+    h6 {
+        justify-content: center;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 15px;
+        font-family: 'Nunito Sans';
+    }
+
+    #icons img {
+        height: 30px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+}
+
+#footerdiv2 {
+    h3 {
+        font-family: 'Sedan SC';
+        margin-top: 20px;
+    }
+
+    p {
+        justify-content: center;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 15px;
+        font-family: 'Nunito Sans';
+    }
+    #num1 {
+        margin-top: 10px;
+    }
+
+    #num2 {
+        margin-top: -10px;
+    }
+}
+
+#footerdiv3 {
+     h3 {
+        font-family: 'Sedan SC';
+        margin-top: 20px;
+    }
+
+    p {
+        justify-content: center;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 17px;
+        font-family: 'Nunito Sans';
+    }
+
+    #tac {
+        margin-top: 10px;
+    }
+
+    #dp {
+        margin-top: -10px;
+    }
+
+    #faq {
+        margin-top: -10px;
+    }
+}

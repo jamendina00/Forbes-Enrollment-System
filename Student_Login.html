@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Student_Login.css">
+    <link rel="stylesheet" href="/framework/bootstrap.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <header id="shape">
+
+    </header>
+    <main>
+        <div class="d-flex flex-row" id="loginframe">
+            <div class="p-5" id="leftbox">
+                <header class="">
+                    <h1>Welcome Forbesian !</h1>
+                </header>
+                <body class="">
+                    <p class="my-5">The goal of Forbes College Education is to provide quality education through educational innovation as a key to a better life. We are committed not only to providing access to a holistic education but also to strengthening our local and international linkages to maintain equal leverage in program advancement and student employment.</p>
+                </body>
+            </div>
+            <div class="p-5" id="rightbox">
+                <header>
+                    <div class="p-1" id="boxshape">
+                        <h1 class="text-center">Login</h1>
+                    </div>
+                </header>
+                <div id="forbeslogo">
+                    <img src="/img/forbeslogo-removebg-preview 9.png" alt="">
+                </div>
+                <form action="/action_page.php" class="was-validated">
+                    <div class="mb-3 mt-3">
+                      <label for="email" class="form-label"></label>
+                      <input type="text" class="form-control" id="email" placeholder="Enter Email" name="email" required>
+                      <div class="valid-feedback" id="valid1"></div>
+                      <div class="invalid-feedback"></div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd" class="form-label">  </label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pswd" required>
+                      <div class="valid-feedback" id="valid2"></div>
+                      <div class="invalid-feedback"></div>
+                    </div>
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+                      <label class="form-check-label" for="myCheck"></label>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Check this checkbox to continue.</div>
+                    </div>
+                    <button type="submit" class="btn btn-success" id="submitbtn">Login</button>
+                  </form>
+         </div> 
+    </main>
+    <footer class="d-flex flex-row justify-content-center border-top" id="mainfooter">
+        <div class="col col-3" id="footerdiv1">
+            <h1>Forbes College</h1>
+            <h6>E. Aquende Bldg. 1 Peñaranda St., Legazpi</h6>
+            <h6>City Rizal Corner Elizondo St., Legazpi City</h6>
+
+            <div class="icon" id="icons">
+            <img src="/icon/facebook.png" alt="" id="facebookicon">
+            <img src="/icon/twitter.png" alt="" id="twittericon">
+            <img src="/icon/instagram.png" alt="" id="instagramicon">
+            </div>
+        </div>
+        <div class="col col-3" id="footerdiv2">
+            <h3>Contact</h3>
+            <p id="num1">(052) 742 0317</p>
+            <p id="num2">0910 071 2286</p>
+        </div>
+        <div class="col col-3" id="footerdiv3">
+            <h3>General</h3>
+            <p id="tac">Terms and Condition</p>
+            <p id="dp">Data Privacy</p>
+            <p id="faq">FAQ</p>
+        </div>
+    </footer>
+</body>
+<script src="/js/Student_Login.js"></script>
+<script src="/framework/bootstrap.bundle.min.js"></script>
+</html>

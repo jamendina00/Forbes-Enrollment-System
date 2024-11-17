@@ -1,0 +1,19 @@
+
+#position
+{
+    background-color: gray;
+    height: 500px;
+}
+.number
+{
+    border: 5px outset black;
+    max-width: max-content;
+}
+/* button:hover
+{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-weight: 550;
+    transition: all 0.2s linear;
+} */

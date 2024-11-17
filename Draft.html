@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/framework/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/draft.css">
+    <title>Draft</title>
+</head>
+<body>
+    <section id="Section_1">
+        <h2>Style Sheet Modification</h2>
+        <div class="" id="color_mode" style="background-color: blue;">
+            <h5 style="color: white;">Color Changer</h5>
+            <button onclick="ColorMode()" class="mx-5 p-3">Change Color</button>
+        </div>
+        <div class="my-1 p-1" id="position">
+            <h5 style="color: black;">Position Changer</h5>
+            <button onclick="move_up()" class="p-2" id="Up">Move UP</button>
+            <button onclick="move_down()" class="p-2" id="Down">Move DOWN</button>
+            <button onclick="move_left()" class="p-2" id="Left">Move LEFT</button>
+            <button onclick="move_right()" class="p-2" id="Right">Move RIGHT</button>
+            <button onclick="resetbttn()" class="p-2" id="Reset">Reset</button> <br> <br>
+            <img src="/img/bada65eaa7752eea9c01707f5711e3e8.jpg" alt="" id="Model" style="height: 100px;">
+        </div>
+        <div class="p-1" id="Hide_n_Show">
+            <h5 style="color: black;">Visibility Changer</h5>
+            <button onclick="ShowModel()" class="py-3 px-5">Show</button>
+            <button onclick="HideModel()" class="py-3 px-5">Hide</button> <br> <br>
+            <img src="/img/bada65eaa7752eea9c01707f5711e3e8.jpg" alt="" id="HSmodel" style="height: 200px;">
+        </div>
+        <div class="p-1" id="RandomNumber_Generator">
+            <h5 style="color: black;">Random Number Generator</h5>
+            <div class="number p-5">
+                <h1 id="Number">===</h1>
+            </div>
+            <button onclick="Generator()" class=" m-2 py-3 px-5">Generate</button>
+        </div>
+        <hr>
+    </section>
+
+    <section id="Section_2">
+        <h2>Event Listener</h2>
+        <div class="">
+            <h5 style="color: black;">Mouse and Key event</h5>
+            <div class="m-5">
+                <!-- click event start -->
+                 <table>
+                    <td><button id="click">Click Event</button></td>
+                    <td id="clickedresult"></td>
+                 </table>
+                 <!-- click event end -->
+
+                 <!-- double click event start -->
+                 <table>
+                    <td><button id="doubleclick">Double Click Event</button></td>
+                    <td id="doubleclickresult"></td>
+                 </table>
+                 <!-- double click event end -->
+
+                 <!-- Mouse over event start -->
+                 <table>
+                    <td><button id="mouseover">Mouse Over/Out Event</button></td>
+                    <td id="mouseoverresult"></td>
+                 </table>
+                 <!-- Mouse over event end -->
+                
+                 <!-- Keypress event start -->
+                 <table>
+                    <td><input placeholder="Keypress" class="keypress" id="keypress"></td>
+                    <td id="keypressresult"></td>
+                 </table>
+            </div>
+        </div>
+
+        <div class="container justify-content-center border" style="border-radius: 12px; box-shadow: 0px 0px 4px;">
+            <h5 style="color: black;">Submit event</h5>
+            <form action="" class="container justify-content-center"id="register_form">
+                <h1 class="">Registration Form</h1>
+                <label for="name">Name</label> <br>
+                <input type="text" placeholder="ex. John Miller" id="name"> <br>
+                <p id="er_name" style="color: red; font-size: 0.75rem; display: none;">Name is required*</p>
+                <label for="email">Email</label> <br>
+                <input type="text" placeholder="example@coffe.gg" id="email"> <br>
+                <p id="er_mail" style="color: red; font-size: 0.75rem; display: none;">Please enter a valid email address*</p>
+                <label for="password">Password</label> <br>
+                <input type="password" placeholder="********" id="password"> <br>
+                <p id="er_pass" style="color: red; font-size: 0.75rem; display: none;">Password must be at least 8 characters long*</p>
+                <button type="submit" class="my-2" style="color: #f5f5fa; background-color: green; border: none; padding: 4px 60px;">Register</button>
+            </form>
+        </div>
+        <hr>
+    </section>
+
+    <section id="Section_3">
+        <h2>Array and Object</h2>
+        <hr>
+    </section>
+
+    <section id="Section_4">
+        <h2>Local Storage</h2>
+        
+        <form id="arrayForm">
+            <label for="name">title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="Description">Description:</label><br>
+            <input type="text" id="Description" name="Description"><br>
+           
+           <input type="file" name="image" id="image" accept="image/*">
+            <input type="submit" value="Submit">
+
+        </form>
+        <hr>
+    </section>
+</body>
+<script src="/js/draft.js"></script>
+<script src="/framework/bootstrap.bundle.min.js"></script>
+</html>

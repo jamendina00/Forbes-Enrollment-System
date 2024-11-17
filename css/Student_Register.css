@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sedan+SC&display=swap');
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navlogo {
+    display: flex;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+#navlogotext {
+    color: black;
+    p{
+        margin: 0px;
+    }
+}
+ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+#p1 {
+    color: green;
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: 'Sedan SC';
+}
+
+#p2 {
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Sedan SC';
+}
+
+#N {
+    margin-left: 1000px;
+}
